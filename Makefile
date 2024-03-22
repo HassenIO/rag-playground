@@ -6,3 +6,6 @@ freeze:
 	pip freeze > requirements.txt
 .PHONY: freeze
 
+format:
+	black .
+.PHONY: format
